@@ -1,10 +1,8 @@
 $(document).ready(function() {
 
-	$(.removeMe p).remove();
+	$(".removeMe").empty() ;
 
-
-
-
+	console.log($("Remove text from removeMe"));
 
 
 })
