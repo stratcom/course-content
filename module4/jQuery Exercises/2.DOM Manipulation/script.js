@@ -15,7 +15,8 @@ $(".sandbox").css({
 		"background": "rgba(0,0,153,0.2)",
 	});
 
-	$(".sandbox li").text("Four score and seven years ago ...")
+	$(".sandbox li:even").text("Four score and seven years ago ...")
+	$(".sandbox li:odd").text("...  our fathers brought forth on this continent, a new nation ...")
 
 })
 
